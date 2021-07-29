@@ -18,7 +18,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: schoolofdevops/vote
+      - image: schoolofdevops/vote:v1
         name: vote
         ports:
         - containerPort: 80
